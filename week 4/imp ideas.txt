@@ -1,0 +1,488 @@
+KTM Mahanagar 2nd day class:
+Meet-up for community gathering on Nepal. 
+Turnitin-similarity patta lagaune (palagrism).TU la masters ma use garna thalya xa AI tool ho .
+FINANCE, MARKETING, AGRICULTURE, MEDICAL PREDECTION SYSTEM, TRANSPORTATION, TRAFFIC MANAGEMENT (SIGNAL) OPTIMIZATION USING VISION AI, RESEACH AND DEVELOPMENT , BUSINESS HUB(CHATBOT), FRAUD DETECTION USING AI , HUMAN RESOURCE MANAGEMENT , KNOWLEDGE CREATION , (MEDICAL , AGRICULTURE ,FINTECH , TELECOMMUNICATION, TRANSPORT ARE THE MAIN POSSIBLE SECTOR FOR AI)
+NLP(NATURAL LANGUAGE PROCESSOR)-TEXT, COMPUTER VISION - IMAGE TRAINNING 
+SSAVR.COM FOR SHARING THE FILE ALONG THE SAME WIFI NETWORK .
+
+DAY-3:
+Kahoot for quiz ;
+ Variables and data types:
+
+
+Day-4
+-list and its operations.
+-list vs tuples
+* Set {},();
+-set operations
+* Dictioneries in python
+*String Manupulation
+#Homework : Find area of circle?
+
+Day-5 
+#Modular programming for AI
+-NumPy- for matrix multiplication and calculating the matrix calculations etc
+-Pandas- import stored data and clean them like(null value, duplicate) sql file html documents can be imported .
+OS directly manipulate the file while pandas first import the file and convert it into python and then only manipulate them.
+IMP->At least 10 functions should be known from numpy and pandas in the industry -# should be able to do yourself for any industry.
+ 
+#Multiple modules can be imported at a time in python.
+#Common  AI libraries Import;
+*Data Manipulation
+-NumPy,
+-Pandas,
+
+*Visualization
+-matplotlib, 
+-seaborn,
+
+*Machine Learning
+-sklearn modules,- model train (all functionalities are used in machine learning are in sklearn);
+
+*Deep Learning
+-tensorflow, 
+-keras,
+
+#element wise multiplication and matrix multiplication heryara aune?
+
+- modules contains the functions inside the program. Modules are very vast.
+
+
+#Day -4
+#File handling and Exception handling
+- We can access the file of our local storage by  python and other programming languages.
+-file=open("data.txt","r") #r for read
+-rb:read binary (it reads image pixels ,of photos and videos).
+file.close()- is done to free the memory and close the operation.
+-with : Automatically closes  the operation.
+[with open("data.txt","r") as file:]
+- file.read()-reads whole line
+-file.readlines()- list the lines by reading .
+-f.write("any text")-overwrite the existing file / if there is no file it creates a new one.
+-append(a)->last ma add garxa append la. In only existing file.
+
+#EXCEPTIONS 
+->Unwanted events that disrupt program flow during execution.
+->It avoid crashing and give meaningful error message and increase user experience.
+
+#USING TRY-EXCEPT FOR ERROR HANDLING.
+->Try:
+->except ValueError:
+->finally:
+
+**Use W3School to learn all the things must recommended one.
+
+# Day 5 
+#Numpy and Pandas
+#NUMPY:
+->to manupulate 1D,2D and 3D complex calculations . It is the foundation of most machine learning.
+->NumPy is fast and efficient due to c implementation(i.e external ) so it is made using C and is fast.
+->It is used before pre processing (before processing or before implementing to model processing the data or cleaning data)
+->data is cleaned to provide right data to model.
+->Manual:creating a lists and outputs manually.
+->Vectorized:changes the output in the matrix form automatically.
+->NumPy only does numerical operations so it has low memory uses and fast operation as well as execution.
+->NumPy is a module which is external.
+
+#CREATING ARRAY:
+->Np.eye: shows the  diagonal 1 and others 0.
+->np.eye(0): gives the empty set otherwise 1 should be given.
+->arr.shape:shows the shape of array like 2*3,
+->arr.dtype: shows the  type of data (e.g: int32)
+->n.dim: for  dimendion checking.
+
+
+#PANDAS
+->It is a powerful library for data analysis and manupuliation.
+->ideal for structural (tabular) data.
+->Series : only 1D data are included.(like column)
+->Dataframe: 2D datas in tabular format are stored in this dataframe.(rows and column) 
+->df.head(): shows the first few rows of DataFrame i.e first 5 rows. It is to know the sample of data by using head.
+->df.tail(): shows last 5 rows of data.
+->df.info(): gives meta data (columns,types,nulls)
+->df[df["score"]>40] # filters the row 
+-> descriptive:mean , median, quartile
+->inferential: gives exact value.
+->df.describe(): summary statics.
+->df.mean(),df.sum(),df.max()
+->df.groupby('column'): gives the data groups in the cretain column on the basis of group or column or address etc.
+->df.dropna():remove missing value.
+->df.fillina(0):fill missing with default.
+->df.rename():rename columns.
+->
+
+#sTATISTICS
+->SCIENCE of collecting, organizing , analyzing and interpreting data.
+->its importance in ai:
+#mean gives average value
+#The mean, median and mode are all estimates of where the "middle" of a set of data is. These values are useful when creating groups or bins to organize larger sets of data
+# The standard deviation is the average distance between the actual data and the mean.
+#helps in model selecting and feature scaling , error analysis.
+#outliars - value out of range is known as out liars.
+#histogram :is used to find out the range value. But bar chart gives the individual value.
+
+
+#Measures of Dispersion:
+->range is calculated to find the outliar of data.
+
+->Standard Deviation
+->Square root of varience
+->varience  is the distance between the data.
+->standard deviation is the distance from the mean of data.
+mp.std(data)
+->noise : inconsistent datas.
+
+#visulizing stats with pandas + matplotlib:
+
+
+#Linear algebra for AI
+->vector : gives magnitude and direction , it is 1D array important for  faster and low computional cost.
+->matrix is important for number multiplication in linear algebra , it covers one by one multiplication.
+->Linear Transformation : one line  i.e straight and transforming the values.
+->Neural Network : input layer->hidden layer->output layer. fit forward neural network : goes straight .back forward : goes back and solve the error and update.
+->y=ax+b: x: weight, 
+->Bias:provides equality to all the output given by neurons.
+->max pulling: pulling the maximum value.
+->feature: rows and column of table.
+
+#PCA (Principle component analysis):
+->1 column : 1D , 2 column :2D like wise...
+->the main work of pca is to decrease the dimension to increase the run time.
+
+#NM(neural network)
+
+#SVD (Singular value Decomposition)
+->providing the part part of the input (i.e fitting model in the small areas) to get smooth execution.
+->High dimensional space: process the dimensional data.
+->gradients: is both slope and derivative.  solpe is the rate of change of something with respect to something.
+->word embedding i.e converts into numbers .
+->audio is converted with the wave of the sound.
+
+#Scalar :
+->gives the magnitude only not direction.
+->one number is used in scalar multiplication in matrix both matrix are multiplied.
+->transformation : switching the row to column and column to row.
+-> identity matrix that doesn't change other matrix when multiplied to other matrix.
+
+
+#Application:
+->Image recogination  image= matix of pixel values
+->Recommendation system = vectors represents users/items in latent space.
+->Natural Language (NLP)= Word embeddings=vectorized text
+->Neural Networks= Layers= matrix multiplications.
+
+#https://www.geeksforgeeks.org/  go here to learn
+
+
+#PROBABILITY IN ML:
+->Theoritical ,Experimental and conditional.
+->Dependent and Independent
+->#Models:
+1.Naive Bayes: Machine learning model works under probability. According to the feature of data it predicts.
+2.Hidden Markov Model:Machine learning model works under probability. Predicts any event by observing the action and reaction.
+3.Bayesian Networks: Machine learning  but statical model works under probability. If dots are connected then it predicts the occurance. i.e symptoms collection for prediction of any diseases.
+NLP:it predicts the word form the already given text.
+->probability  is used for handling uncertainity , predictions and class distributions.
+
+#Types of Probability:
+1.Theoritical Probability:Non-pratical probability i.e without any experiment.it is universal truth.
+2.Experimental Probability: Based on real data or experiments.
+3.Conditional Probability: Like conditional statement . i.e it predicts from already occurred event.
+
+#EDA (Exploratory data analysis)
+-> it is done to model data in structured way in data frame.
+-> Exploring the data : research of data which type of data etc.
+->Finding structure : finding the data structure i.e shape, size of the data.
+->Anomolies : Suspecious datas i.e missing values,null values , duplicate.
+->Pattern of data i.e spreadness and varience of data.
+-> Exploring what data want to said.
+  
+#Data Profiling
+=>first get the shape() of the data. it gives rows and column of data.
+=> then info() is used to find columns and its data type.
+=>check the duplicate rows.
+=>check null values of the datas.
+=> check unique value is required to get correct value by model.
+=> describe gives the summary ststistics of numerical data.
+
+#Data Quality Check
+=>Checking the quality of data i.e whether the data is missing,duplicate etc.
+=>1 hot incoding i.e changing strings into numbers.
+=>Label encoding is used for multiple string to 0,1,2,3 etc.
+=>for inconsistant data .lower() or .upper() function is used.
+
+
+#Overfitting
+=>Trainning is high and testing is low  where varience is high but bias is low so if we give new data it does not gives the correct output.#important
+=>in underfitting: trainning is low , testing is high , varience is low, bias is high .
+
+#IQR Rule (Interquartile Range)
+=> Box Plots (IQR Method)
+Box plots are visual tools that show the distribution of data and help identify outliers using the Interquartile Range (IQR).
+
+IQR = Q3 - Q1
+(Q1 = 25th percentile, Q3 = 75th percentile)
+
+Outlier threshold:
+
+Lower Bound = Q1 - 1.5 × IQR
+
+Upper Bound = Q3 + 1.5 × IQR
+
+Any data point outside this range is considered an outlier.
+
+📊 A box plot displays:
+
+A box from Q1 to Q3
+
+A line at the median
+
+"Whiskers" extending to the minimum and maximum within range
+
+Dots or stars for outliers
+
+2. Z-score Method
+The Z-score tells how many standard deviations a data point is from the mean.
+
+Formula:
+
+𝑍=𝑋−𝜇
+𝜎
+Z= 
+σ
+X−μ
+​
+ 
+where 
+𝑋
+X = data point, 
+𝜇
+μ = mean, 
+𝜎
+σ = standard deviation
+
+If the Z-score > 3 or < -3, the data point is usually considered an outlier.
+
+This method is useful when the data is normally distributed.
+
+3. Visualizations (Scatter Plots, Histograms)
+These are graphical ways to spot outliers manually:
+
+Scatter Plot:
+Displays the relationship between two variables. Outliers often appear as isolated dots far from clusters.
+
+Histogram:
+Shows frequency of data points in intervals. Outliers appear as bars far apart from the main group (e.g., at the tail ends of the distribution).
+
+#Pipelining
+=> clean -> model-> predict.
+=>In model 80% time is used to clean and EDA  the data whereas 20% time is used to model the data.
+
+
+#Seaborn
+=>Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+
+#Iris Dataset
+=> Iris dataset serves as a fundamental resource for understanding and applying machine learning algorithms. Its historical significance, simplicity, and clear classification make it a valuable tool for researchers and data scientists. By exploring the Iris dataset and experimenting with various machine learning frameworks, professionals can deepen their understanding of classification algorithms and enhance their skills in the field.
+The Iris dataset is often used as a beginner's dataset to understand classification and clustering algorithms in machine learning. By using the features of the iris flowers, researchers and data scientists can classify each sample into one of the three species.
+
+
+
+# Seaborn
+=>important dependencies:
+import seaborn as sns 
+
+#EDA (Exploratory data analysis) day :2
+=>1. Univarate : analyzing one variable at a time to understand its distribution, type and tendency.
+-> Box plot : q1,q3,meean,mediam and outliars.
+=>Kernel density estimation (KDE) is a statistical technique used to estimate the probability density function of a random variable. It creates a smooth curve from discretely sampled data that reflects the underlying density distribution.
+
+=>What is annot in Python?
+Python Annotations are a Python feature that tells developers the data type of variables or function parameters. They can also be used to improve the readability of a Python program. There are two main types of Python annotations: function annotations and variable annotations.
+
+=>Colormaps or Cmap in python colormaps is a very useful tool for data visualization. Matlibpro comes with a number of built-in colormaps, such as sequential, diverging, cyclic, qualitative, miscellaneous, etc. You can modify these default Cmaps or create your own custom ones using python colormaps.
+
+#Feature engineering is the process of selecting, manipulating and transforming raw data into features that can be used in supervised learning. It's also necessary to design and train new machine learning features so it can tackle new tasks. A “feature” is any measurable input that can be used in a predictive model.
+
+#Binning is the process of dividing a continuous variable into a discrete set of intervals or bins. It is a form of data discretization that can help to simplify complex data distributions, reduce noise, and make data more interpretable.
+
+#Categorical encoding is the process of converting categorical variables into numeric features. It is an important feature engineering step in most data science projects, as it ensures that machine learning algorithms can appropriately handle and interpret categorical data.
+
+
+#Use cut when you need to segment and sort data values into bins. This function is also useful for going from a continuous variable to a categorical variable.
+
+
+#First check the data structure and use mean , median .
+=>if there is outliars then use median if not then use mean.
+=>.info():shows the object.
+=>.isnull() checks the null value and gives true and false value.
+
+=>What is meant by skewness?
+Skewness | Definition, Examples & Formula
+Skewness is a measure of the asymmetry of a distribution. A distribution is asymmetrical when its left and right side are not mirror images. A distribution can have right (or positive), left (or negative), or zero skewness.
+
+#What is the winsorized mean in statistics?
+Winsorized mean is a statistical measure used to calculate the average of a dataset by replacing a specified percentage of extreme values or outliers with less extreme ones.
+
+
+#Pipeline:
+raw->clean->Enrich with new features->Ready for ML.
+
+#companies providing internship as ai and ml traineee.
+#fusemachine
+#greenleaf
+#infinite machine solutions
+#skillrank
+
+
+#Machine Learning
+=>We provide input and output then the logic is given by machine itself in machine learning .
+=>In Machine learning we train machine like baby brain.
+=>explicitly  programmed : without doing externally program (i.e by providing pre trainned data).
+
+#TRADITIONAL PROGRAMMING
+=>RULES+DATA->OUTPUT
+
+#MACHINE LEARNING
+=>DATA+OUTPUT->LEARN RULES
+
+#TYPES OF MACHINE LEARNING
+1.SUPERVISED LEARNING
+=>Learns from labeled datan and predicts outcome e.g spam detection 
+
+2.Unsupervised Learning
+=>Learns from unlabeled data and finds hidden patterns e.g Customer Segmentation.
+
+3.Reinforcement Learning
+=>Agents Learns by trial and error which is used in gaming , robotics.There is feedback system in reinforcement .
+
+#REAL WORLD APPLICATION OF ML
+=>Voice Assistants(NLP)
+=>Self-driving Cars(CV)
+=>Face Recoginition
+=>Credit Scoring
+=>Disease Dignosis
+
+#Terminologies
+->Dataset -> Collection of data ->e.g excel sheet of students
+->Features -> Input Variables -> Age, salary
+-> Labels -> Output to predict -> will you buy or not
+-> Model -> Algorithms that learns patterns -> Decision Tree
+-> Trainning -> Learning from data -> Model studies patterns
+->
+
+#MACHINE LEARNING PIPELINE
+1.Data collection
+2.Data cleaning and preprocessing
+3.Splitting data (Train/test)
+4.Model Selection
+5.Trainning the Model
+6.Model Evluation
+7.Deployment
+8.Monitoring
+
+
+#important ai tools
+#Kimi.ai
+#Claude
+#Perplexity
+
+#Supervised Learning - Regression
+=>Classification : gives in form of yes no i.e in descrite form
+=>Regression : Gives continuous values in certain range.It is a one type of stats method. It is used in supervised learning.
+
+#varaibles are quantitative data.
+=>A variable is a characteristic that can be measured and that can assume different values. Height, age, income, province or country of birth, grades obtained at school and type of housing are all examples of variables. Variables may be classified into two main categories: categorical and numeric.
+=>What are qualitative and quantitative data examples?
+Qualitative data examples include survey responses that allow for open-ended answers, transcripts from interviews, and notes taken from observations. Quantitative data examples consist of numerical survey responses, test scores, and data related to website traffic
+
+#Types of Regression
+1.Linear Regression
+2.Polynomial Regression
+3.Multi-linear regression
+4.Ridge and Lasso Regresion
+5.Visuals
+
+#Blue is used to show the actual data
+#green is used to show the errors
+#red  is the regression line created by us.
+
+=>logistic regression is used to classification  it is regression but does classification.
+r2 is used to check the accuracy of model.
+mean square error : squares the error and protorize the big error.
+metrics : 	
+
+#random_state=42 : sets the accuracy fixed otherwise new acuracy arises every time
+
+#Supervised Learning - Classification
+=>classification works on porbability,it is not 100% accurate. classification is supervised and clustering is un-supervised.
+=>probability is not 100%accurate.
+
+#Types of classification
+1.Binary Classification
+=> It works on two values 0 and 1 gives if 1 yes if 0 then no. It gives result on true or false.e.g if else.
+2.Multiclass Classification
+=>Works on multiple classification  i.e elif like function.
+3.Multilabel Classification
+=>Different label at the same place is known as multilabel classification.e.g sipmela i.e ai , politics ,and others etc.
+
+#Logistic Regression - Intuition
+=>Threshold:0.5 , e.g if student gets marks greater or equal to 20 then he/she is pass so here 20 is threshold.It is the middle value is there is no point given then it should be taken 0.5. (0-1).
+
+
+#Loss function and optimization
+
+
+#Hyperparameter Tunning in Supervised ML
+=>comes along model is parameter. To change the model new parameter is used which is known as hyperparameter.
+=>external configuration : i.e setting values by ourselves before training 
+=>Learning rate low: makes small lines.
+=>Learning rate high : make big lines without knowing data.
+=>n_neighbours : is also an hyperparameter that how much neighbours you waant.
+=>max_depth : to go in the depth of decision tree.
+=>alpha : always positive i.e if value is low it gives low penalty. if value is big then it priotrize the error(l1 and l2).It does regulirization.
+
+
+#Why tune hyperparameters?
+=> When baseline model does not give good accuracy then it is tuned using hypertunning to improve accuracy.
+=>Generalization
+=>Performance
+=>Model Robustness : works on anytype of data.
+
+#Techniques for Tuning
+=>1.Manual Tunning: Change value one by one.
+2.Grid Search:
+=>What does the GridSearchCV() method do?
+GridSearchCV is a technique for finding the optimal parameter values from a given set of parameters in a grid. It's essentially a cross-validation technique. The model as well as the parameters must be entered. After extracting the best parameter values, predictions are made. I.E checking the value individually.Cv: Cross validation i.e trainning 80% data and testing on 20% data.
+3.Random Search
+=>It does iteration wise randomly by selecting randomly.Used for large spaces which is faster.
+
+
+#Best Pratices
+=>Start Simple : Selecting simple models.
+=>Use domain Knowledge : already know the knowledge about the specific data.
+=>Monitor trainng time: C : to which give priority. Penalty :IN error how much penalty should give.
+=> Tunning is done on trainning data and then tested the accuracy.
+=>Yellowbrick : What is yellow brick in Python?
+Yellowbrick is an open source, Python project that extends the scikit-learn API with visual analysis and diagnostic tools. The Yellowbrick API also wraps matplotlib to create interactive data explorations. It extends the scikit-learn API with a new core object: the Visualizer.
+
+
+#Streamlit(model development and inference with streamlit)
+=>it work as frontend which only shows the UI and UX. It is free hosting python libraray use for demo presentaion. We can share link by copying the link from streamlit.It gives public access to the other people who use it and give feedback.It does not need html,css and javascript. When we write code in python it creates websites. It is only used for presentation purpose which cannot be selled.
+
+#inference :  to already trained data and model is given new data or unseen data which provide output and probability is checked which is known as inference.
+An inference engine is a critical component in rule-based systems, designed to facilitate logical reasoning by applying rules from a knowledge base to input data. Its primary role is to derive conclusions or make decisions, forming the backbone of decision-support systems and automated workflows.
+
+#
+
+
+
+
+
+
+
+
+
+
+
+
